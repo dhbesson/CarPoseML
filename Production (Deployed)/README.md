@@ -3,15 +3,17 @@ The Car Pose Machine Learning (ML) tool ingests a single static image and return
 
 # Example
 Uploaded Image:
-![Uploaded Image](ID_00ab59fa6.jpg)
+
+![Uploaded Image](ID_00ab59fa6.jpg =600x)
 
 Return Image:
-![Return Image](response_img.jpg)
+
+![Return Image](response_img.jpg =600x)
 
 # Usage
 The tool can be invoked with API tools such as curl and Postman or via a Python utility script.
 
-The API endpoint is [link to Google!](https://uru0x7k769.execute-api.us-west-1.amazonaws.com/test/carlambda).
+The API endpoint is https://uru0x7k769.execute-api.us-west-1.amazonaws.com/test/carlambda.
 
 Images should be included in the body of the API request in the .jpg format using form-data and `key: pic`.
 
