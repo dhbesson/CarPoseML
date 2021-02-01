@@ -39,3 +39,9 @@ response_filename = 'response_img.jpg'
 with open(response_filename, 'wb') as f:
     f.write(body_dec)
 ```
+
+# Futre Work
+* Include a list of car poses in the API response
+* Include an option in the API response to receive additional images such as X,Y,Z projections
+* Return a 3D model of the scene in the image
+* Allow users to specify the camera parameters of their uploaded image
