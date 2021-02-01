@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  carprocessor2:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.7
+      CodeUri: .
+      Description: ''
+      MemorySize: 3008
+      Timeout: 300
+      Role: 'arn:aws:iam::921240641988:role/lambda_vpc_basic_execution'
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: /MyResource
+            Method: ANY
+        Api2:
+          Type: Api
+          Properties:
+            Path: '/{carlambda+}'
+            Method: ANY
+      VpcConfig:
+        SecurityGroupIds:
+          - sg-021f369169417f512
+          - sg-020db00e63a576309
+        SubnetIds:
+          - subnet-0fdd0ba691aeb3ed6
+      Environment:
+        Variables:
+          PYTHONPATH: /mnt/efs/lambda
