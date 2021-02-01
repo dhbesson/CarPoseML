@@ -1,5 +1,5 @@
 # Trained Models
-Models trained over 10 epochs can be downloaded from https://carposeml-trained-models.s3-us-west-1.amazonaws.com/Trained_Models.zip
+Models trained over 10 epochs can be downloaded from https://carposeml-trained-models.s3-us-west-1.amazonaws.com/Trained+Models.zip
 
 # Training and Test Images
 The training and test images can be downloaded from Kaggle at https://www.kaggle.com/c/pku-autonomous-driving/data.
