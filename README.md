@@ -4,11 +4,11 @@ The Car Pose Machine Learning (ML) tool ingests a single static image and return
 # Example
 Uploaded Image:
 
-![Uploaded Image](ID_00ab59fa6.jpg)
+![Uploaded Image](CarPoseML\Production (Deployed)\ID_00ab59fa6.jpg)
 
 Return Image:
 
-![Return Image](response_img.jpg)
+![Return Image](CarPoseML\Production (Deployed)\response_img.jpg)
 
 # Usage
 The tool can be invoked with API tools such as curl and Postman or via a Python utility script.
